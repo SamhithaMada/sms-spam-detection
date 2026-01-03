@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import joblib
 import re
@@ -17,9 +18,13 @@ def clean_text(text):
 
 @st.cache_resource
 def load_model():
-   return joblib.load("../models/sms_spam_lr_pipeline.pkl")
+    # Get absolute path to this file (app.py)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(current_dir, "..", "models", "sms_spam_lr_pipeline.pkl")
+    return joblib.load(model_path)
 
 model = load_model()
+
 
 THRESHOLD = 0.4   # tuned threshold
 MIN_WORDS = 3     # SMS can be short
