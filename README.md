@@ -97,7 +97,8 @@ sms_spam_detection/
 
 ---
 
-## 🎓 Project Type
-**Deployable Machine Learning Mini Project**
+## 🚀 Deployment
 
-This project demonstrates practical ML deployment with realistic behavior and responsible evaluation.
+The application is publicly deployed using Streamlit Community Cloud.
+
+🔗 **Live App:** https://sms-spam-detection-sbh23ypftmlgbwbzhh6thq.streamlit.app/
