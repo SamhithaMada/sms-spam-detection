@@ -17,7 +17,7 @@ def clean_text(text):
 
 @st.cache_resource
 def load_model():
-    return joblib.load("C:/Users/Mada Samhitha/sms_spam_detection/models/sms_spam_lr_pipeline.pkl")
+   return joblib.load("../models/sms_spam_lr_pipeline.pkl")
 
 model = load_model()
 
