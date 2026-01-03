@@ -63,7 +63,7 @@ The model is deployed as a public web application using **Streamlit**.
 Users can paste any SMS message and instantly check whether it is spam.
 
 ---
-
+```
 ## 📁 Project Structure
 
 sms_spam_detection/
@@ -84,7 +84,7 @@ sms_spam_detection/
 ├── README.md                          # Project documentation
 └── .gitignore                         # Ignored files and folders
 
-
+```
 ---
 
 ## 🧰 Tools & Libraries
